@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#11000000">
 
     <LinearLayout
         android:layout_width="409dp"
@@ -55,11 +56,15 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="152dp"
+            android:layout_height="118dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/colorInfo"
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="202dp"
+                android:layout_width="175dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:padding="3dp">
@@ -67,14 +72,13 @@
                 <ImageView
                     android:id="@+id/humidityImage"
                     android:layout_width="match_parent"
-                    android:layout_height="70dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_height="69dp"
                     app:srcCompat="@drawable/humidity" />
 
                 <TextView
                     android:id="@+id/humidityText"
                     android:layout_width="match_parent"
-                    android:layout_height="65dp"
+                    android:layout_height="match_parent"
                     android:paddingTop="10dp"
                     android:text="N/A %"
                     android:textAlignment="center"
@@ -91,13 +95,12 @@
                     android:id="@+id/windForceImage"
                     android:layout_width="match_parent"
                     android:layout_height="69dp"
-                    android:layout_marginTop="20dp"
                     app:srcCompat="@drawable/wind" />
 
                 <TextView
                     android:id="@+id/windForceText"
                     android:layout_width="match_parent"
-                    android:layout_height="63dp"
+                    android:layout_height="match_parent"
                     android:paddingTop="10dp"
                     android:text="N/A mph"
                     android:textAlignment="center"
@@ -108,10 +111,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal"
+            android:background="@color/colorInfo">
 
             <LinearLayout
-                android:layout_width="202dp"
+                android:layout_width="176dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:padding="3dp">
@@ -119,7 +126,7 @@
                 <ImageView
                     android:id="@+id/sunriseImage"
                     android:layout_width="match_parent"
-                    android:layout_height="88dp"
+                    android:layout_height="151dp"
                     android:layout_weight="1"
                     android:padding="5dp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -128,7 +135,7 @@
                 <TextView
                     android:id="@+id/sunriseText"
                     android:layout_width="match_parent"
-                    android:layout_height="94dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:paddingTop="10dp"
                     android:text="N/A AM"
@@ -144,16 +151,16 @@
 
                 <ImageView
                     android:id="@+id/sunsetImage"
-                    android:layout_width="207dp"
-                    android:layout_height="66dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="151dp"
                     android:layout_weight="1"
                     android:padding="5dp"
                     app:srcCompat="@drawable/sunset" />
 
                 <TextView
                     android:id="@+id/sunsetText"
-                    android:layout_width="207dp"
-                    android:layout_height="67dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:paddingTop="10dp"
                     android:text="N/A PM"

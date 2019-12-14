@@ -7,6 +7,7 @@ INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:
 MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\e4279d8a8748c1ea66e0a1432734e5c6\jetified-navigation-ui-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\906744c4ddcbc384c5a8d2d69414f8fa\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.mmin18:realtimeblurview:1.2.1] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\d70959fc6f572500957658dd13461563\jetified-realtimeblurview-1.2.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\508ac768b50158a079142e4dc4915061\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\04005ad7c478d573db38b1bee16fcc6a\navigation-fragment-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\05168a99ce6bc986f8dc92d58ead19f3\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
@@ -121,6 +122,8 @@ MERGED from [com.google.android.material:material:1.0.0] C:\Users\ENIGMA\.gradle
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\906744c4ddcbc384c5a8d2d69414f8fa\appcompat-1.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\906744c4ddcbc384c5a8d2d69414f8fa\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.github.mmin18:realtimeblurview:1.2.1] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\d70959fc6f572500957658dd13461563\jetified-realtimeblurview-1.2.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mmin18:realtimeblurview:1.2.1] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\d70959fc6f572500957658dd13461563\jetified-realtimeblurview-1.2.1\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\508ac768b50158a079142e4dc4915061\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\508ac768b50158a079142e4dc4915061\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\04005ad7c478d573db38b1bee16fcc6a\navigation-fragment-2.0.0\AndroidManifest.xml:20:5-44

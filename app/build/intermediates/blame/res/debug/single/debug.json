@@ -220,6 +220,10 @@
         "source": "C:\\Users\\ENIGMA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_debug.xml.flat",
+        "source": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\src\\main\\res\\layout\\fragment_debug.xml"
+    },
+    {
         "merged": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\ENIGMA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
@@ -500,6 +504,10 @@
         "source": "C:\\Users\\ENIGMA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\color\\abc_tint_switch_track.xml"
     },
     {
+        "merged": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_appinfo.xml.flat",
+        "source": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\src\\main\\res\\layout\\fragment_appinfo.xml"
+    },
+    {
         "merged": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\ENIGMA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
@@ -518,6 +526,10 @@
     {
         "merged": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\ENIGMA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background.png.flat",
+        "source": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\src\\main\\res\\drawable\\background.png"
     },
     {
         "merged": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -942,10 +954,6 @@
     {
         "merged": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_design_tint_password_toggle.xml.flat",
         "source": "C:\\Users\\ENIGMA\\.gradle\\caches\\transforms-2\\files-2.1\\2946ca0ea6c89dab7d7d9fbc18e54292\\material-1.0.0\\res\\color-v23\\design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_notifications.xml.flat",
-        "source": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
     },
     {
         "merged": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -1414,10 +1422,6 @@
     {
         "merged": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\ENIGMA\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dashboard.xml.flat",
-        "source": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
     },
     {
         "merged": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",

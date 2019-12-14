@@ -1,4 +1,4 @@
-package com.vladstudios.weatherapp.ui.notifications;
+package com.vladstudios.weatherapp.ui.debug;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,23 +14,21 @@ import com.vladstudios.weatherapp.POJO.CurrentWeatherData;
 import com.vladstudios.weatherapp.openWeatherMapApi;
 import com.vladstudios.weatherapp.R;
 
-import java.util.List;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class NotificationsFragment extends Fragment {
+public class DebugFragment extends Fragment {
 
-    private NotificationsViewModel notificationsViewModel;
+    private DebugViewModel debugViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        notificationsViewModel =
-                ViewModelProviders.of(this).get(NotificationsViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_notifications, container, false);
+        debugViewModel =
+                ViewModelProviders.of(this).get(DebugViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_debug, container, false);
 
         //Declare the TextView seen in the notificationsFragment
         final TextView textView = root.findViewById(R.id.APIResponseText);

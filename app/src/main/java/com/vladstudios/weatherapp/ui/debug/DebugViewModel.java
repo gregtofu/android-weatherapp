@@ -1,14 +1,14 @@
-package com.vladstudios.weatherapp.ui.notifications;
+package com.vladstudios.weatherapp.ui.debug;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class NotificationsViewModel extends ViewModel {
+public class DebugViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public NotificationsViewModel() {
+    public DebugViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("API RESPONSE TEST");
     }

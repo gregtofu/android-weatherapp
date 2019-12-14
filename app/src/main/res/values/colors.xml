@@ -4,5 +4,6 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="colorBG">#413271</color>
-    <color name="colorBGBar">#A9A8C7</color>
+    <color name="colorBGBar">#7FAAAAAA</color>
+    <color name="colorInfo">#55999999</color>
 </resources>
