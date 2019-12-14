@@ -44,6 +44,10 @@
         "source": "C:\\Users\\ENIGMA\\.gradle\\caches\\transforms-2\\files-2.1\\c0a39027978b83a483a047f5c31d0c4e\\core-1.0.1\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
+        "merged": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_broken_eyes_v4.jpg.flat",
+        "source": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\src\\main\\res\\drawable\\broken_eyes_v4.jpg"
+    },
+    {
         "merged": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13_design_layout_snackbar.xml.flat",
         "source": "C:\\Users\\ENIGMA\\.gradle\\caches\\transforms-2\\files-2.1\\2946ca0ea6c89dab7d7d9fbc18e54292\\material-1.0.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     },
@@ -1682,6 +1686,10 @@
     {
         "merged": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
         "source": "C:\\Users\\ENIGMA\\.gradle\\caches\\transforms-2\\files-2.1\\c0a39027978b83a483a047f5c31d0c4e\\core-1.0.1\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_esiea_logo.xml.flat",
+        "source": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\src\\main\\res\\drawable\\ic_esiea_logo.xml"
     },
     {
         "merged": "A:\\Cours\\4A\\Android\\WeatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
