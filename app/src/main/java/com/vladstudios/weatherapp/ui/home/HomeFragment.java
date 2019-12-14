@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CalendarView;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -14,6 +15,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.squareup.picasso.Picasso;
 import com.vladstudios.weatherapp.POJO.CurrentWeatherData;
 import com.vladstudios.weatherapp.R;
 import com.vladstudios.weatherapp.openWeatherMapApi;
@@ -45,6 +47,8 @@ public class HomeFragment extends Fragment {
         final TextView sunriseText = root.findViewById(R.id.sunriseText);
         final TextView humidityText = root.findViewById(R.id.humidityText);
         final TextView windForceText = root.findViewById(R.id.windForceText);
+        final ImageView weatherIcon = root.findViewById(R.id.currentWeatherImage);
+
 
         homeViewModel.getText().observe(this, new Observer<String>() {
             @Override
@@ -83,6 +87,10 @@ public class HomeFragment extends Fragment {
                 sunriseText.setText("" + formatUnixDate(weatherData.getSys().getSunrise()));
                 sunsetText.setText("" + formatUnixDate(weatherData.getSys().getSunset()));
                 windForceText.setText("" + weatherData.getWind().getSpeed());
+
+                //change the weather icon
+                String weatherIconURL = "http://openweathermap.org/img/wn/" + weatherData.getMain().getIcon() + "@2x.png";
+                Picasso.get().load(weatherIconURL).into(weatherIcon);
             }
 
             @Override

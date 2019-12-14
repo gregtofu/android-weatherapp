@@ -8,6 +8,7 @@ MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\ENIGMA\.gradle\ca
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\906744c4ddcbc384c5a8d2d69414f8fa\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.mmin18:realtimeblurview:1.2.1] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\d70959fc6f572500957658dd13461563\jetified-realtimeblurview-1.2.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\5d1c2fd2034ee3b1752726af918300f6\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\508ac768b50158a079142e4dc4915061\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\04005ad7c478d573db38b1bee16fcc6a\navigation-fragment-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\05168a99ce6bc986f8dc92d58ead19f3\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
@@ -31,6 +32,7 @@ MERGED from [androidx.navigation:navigation-common:2.0.0] C:\Users\ENIGMA\.gradl
 MERGED from [androidx.core:core:1.0.1] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\45ed680b1ca2374827549d4e2c9e1a90\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\01d333055a983e736e0a5fac950ffa8f\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b72a7379f5aa5df036759e5e73c50cc5\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\f64c8351ef0c9a7a800019d28185706c\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\e51a74e622ef7469bfa82ce10276a925\lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
@@ -64,6 +66,8 @@ application
 ADDED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:5:5-23:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\5d1c2fd2034ee3b1752726af918300f6\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\5d1c2fd2034ee3b1752726af918300f6\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\508ac768b50158a079142e4dc4915061\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\508ac768b50158a079142e4dc4915061\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\05168a99ce6bc986f8dc92d58ead19f3\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
@@ -124,6 +128,8 @@ MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\ENIGMA\.gradle\caches\
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\906744c4ddcbc384c5a8d2d69414f8fa\appcompat-1.0.2\AndroidManifest.xml:20:5-44
 MERGED from [com.github.mmin18:realtimeblurview:1.2.1] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\d70959fc6f572500957658dd13461563\jetified-realtimeblurview-1.2.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.mmin18:realtimeblurview:1.2.1] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\d70959fc6f572500957658dd13461563\jetified-realtimeblurview-1.2.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\5d1c2fd2034ee3b1752726af918300f6\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\5d1c2fd2034ee3b1752726af918300f6\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\508ac768b50158a079142e4dc4915061\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\508ac768b50158a079142e4dc4915061\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\04005ad7c478d573db38b1bee16fcc6a\navigation-fragment-2.0.0\AndroidManifest.xml:20:5-44
@@ -170,6 +176,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\EN
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\45ed680b1ca2374827549d4e2c9e1a90\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\01d333055a983e736e0a5fac950ffa8f\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\01d333055a983e736e0a5fac950ffa8f\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b72a7379f5aa5df036759e5e73c50cc5\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b72a7379f5aa5df036759e5e73c50cc5\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\f64c8351ef0c9a7a800019d28185706c\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\f64c8351ef0c9a7a800019d28185706c\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
@@ -204,6 +212,14 @@ INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml
 		INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml
 		ADDED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml
 		INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\5d1c2fd2034ee3b1752726af918300f6\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\5d1c2fd2034ee3b1752726af918300f6\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\5d1c2fd2034ee3b1752726af918300f6\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\5d1c2fd2034ee3b1752726af918300f6\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
 	android:authorities

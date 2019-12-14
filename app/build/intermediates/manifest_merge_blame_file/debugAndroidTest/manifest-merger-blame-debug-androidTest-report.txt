@@ -3,35 +3,35 @@
 3    package="com.vladstudios.weatherapp.test" >
 4
 5    <uses-sdk
-5-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5048778635044599539.xml:5:5-74
+5-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4885343064653986296.xml:5:5-74
 6        android:minSdkVersion="22"
-6-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5048778635044599539.xml:5:15-41
+6-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4885343064653986296.xml:5:15-41
 7        android:targetSdkVersion="29" />
-7-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5048778635044599539.xml:5:42-71
+7-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4885343064653986296.xml:5:42-71
 8
 9    <instrumentation
-9-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5048778635044599539.xml:11:5-15:76
+9-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4885343064653986296.xml:11:5-15:76
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5048778635044599539.xml:11:22-76
+10-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4885343064653986296.xml:11:22-76
 11        android:functionalTest="false"
-11-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5048778635044599539.xml:14:22-52
+11-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4885343064653986296.xml:14:22-52
 12        android:handleProfiling="false"
-12-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5048778635044599539.xml:13:22-53
+12-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4885343064653986296.xml:13:22-53
 13        android:label="Tests for com.vladstudios.weatherapp"
-13-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5048778635044599539.xml:15:22-74
+13-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4885343064653986296.xml:15:22-74
 14        android:targetPackage="com.vladstudios.weatherapp" />
-14-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5048778635044599539.xml:12:22-72
+14-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4885343064653986296.xml:12:22-72
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.1.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b700bfc0f9180812ac817088e66c00b6\core-1.1.0\AndroidManifest.xml:24:5-72
 16-->[androidx.test:core:1.1.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b700bfc0f9180812ac817088e66c00b6\core-1.1.0\AndroidManifest.xml:24:22-69
 17
 18    <application android:debuggable="true" >
-18-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5048778635044599539.xml:7:5-9:19
-18-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5048778635044599539.xml:7:18-43
+18-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4885343064653986296.xml:7:5-9:19
+18-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4885343064653986296.xml:7:18-43
 19        <uses-library android:name="android.test.runner" />
-19-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5048778635044599539.xml:8:9-60
-19-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5048778635044599539.xml:8:23-57
+19-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4885343064653986296.xml:8:9-60
+19-->A:\Cours\4A\Android\WeatherApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4885343064653986296.xml:8:23-57
 20
 21        <activity
 21-->[androidx.test:core:1.1.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b700bfc0f9180812ac817088e66c00b6\core-1.1.0\AndroidManifest.xml:27:9-33:20

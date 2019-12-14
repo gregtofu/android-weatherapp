@@ -55,15 +55,23 @@
 33        </activity>
 34
 35        <provider
-35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-36            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-37            android:authorities="com.vladstudios.weatherapp.lifecycle-process"
-37-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-38            android:exported="false"
-38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-39            android:multiprocess="true" />
-39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-40    </application>
-41
-42</manifest>
+35-->[com.squareup.picasso:picasso:2.71828] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\5d1c2fd2034ee3b1752726af918300f6\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+36            android:name="com.squareup.picasso.PicassoProvider"
+36-->[com.squareup.picasso:picasso:2.71828] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\5d1c2fd2034ee3b1752726af918300f6\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+37            android:authorities="com.vladstudios.weatherapp.com.squareup.picasso"
+37-->[com.squareup.picasso:picasso:2.71828] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\5d1c2fd2034ee3b1752726af918300f6\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+38            android:exported="false" />
+38-->[com.squareup.picasso:picasso:2.71828] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\5d1c2fd2034ee3b1752726af918300f6\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+39        <provider
+39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+40            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+40-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+41            android:authorities="com.vladstudios.weatherapp.lifecycle-process"
+41-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+42            android:exported="false"
+42-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+43            android:multiprocess="true" />
+43-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+44    </application>
+45
+46</manifest>
