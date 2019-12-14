@@ -40,10 +40,10 @@ public class HomeFragment extends Fragment {
         });
         return root;
     }
-    class weatherTask extends AsyncTask<String, Void, String> {
+    /*class weatherTask extends AsyncTask<String, Void, String> {
         protected String doInBackground(String... args) {
             String response = HttpRequest.excuteGet("https://api.openweathermap.org/data/2.5/weather?q=" + CITY + "&units=metric&appid=" + API);
             return response;
         }
-    }
+    }*/
 }
