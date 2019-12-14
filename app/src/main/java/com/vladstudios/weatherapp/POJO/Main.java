@@ -1,14 +1,14 @@
 package com.vladstudios.weatherapp.POJO;
 
 public class Main {
-    private int temp;
-    private int humidity;
+    private double temp;
+    private double humidity;
 
-    public int getTemp() {
+    public double getTemp() {
         return temp;
     }
 
-    public int getHumidity() {
+    public double getHumidity() {
         return humidity;
     }
 

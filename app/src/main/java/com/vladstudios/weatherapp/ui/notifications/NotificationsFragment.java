@@ -45,31 +45,32 @@ public class NotificationsFragment extends Fragment {
         openWeatherMapApi data = retrofit.create(openWeatherMapApi.class);
 
         //Then create a list containing the answer to API calls
-        Call<List<CurrentWeatherData>> call = data.getWeatherData();
-        call.enqueue(new Callback<List<CurrentWeatherData>>() {
+        Call<CurrentWeatherData> call = data.getWeatherData();
+        call.enqueue(new Callback<CurrentWeatherData>() {
             @Override
-            public void onResponse(Call<List<CurrentWeatherData>> call, Response<List<CurrentWeatherData>> response) {
+            public void onResponse(Call<CurrentWeatherData> call, Response<CurrentWeatherData> response) {
                 if(!response.isSuccessful()) {
                     textView.setText("Code : "+response.code());
                     return;
                 }
 
-                List<CurrentWeatherData> weatherData = response.body();
-                for (CurrentWeatherData w : weatherData) {
+                //put the API response in a CurrentWeatherData object
+                CurrentWeatherData weatherData = response.body();
+
+                //then put the API response in the debug textview
                     String content = "";
-                    content += "Main : " + w.getMain() + "\n";
-                    content += "Temperature : " + w.getTemperature() + "\n";
-                    content += "Humidity : " + w.getHumidity() + "\n";
-                    content += "Sunrise time" + w.getSunrise() + "\n";
-                    content += "Sunset time" + w.getSunset() + "\n";
+                    content += "Main : " + weatherData.getWeather().get(0).getMain()+ "\n";
+                    content += "Temperature : " + weatherData.getMain().getTemp() + "\n";
+                    content += "Humidity : " + weatherData.getMain().getHumidity() + "\n";
+                    content += "Sunrise time" + weatherData.getSys().getSunrise() + "\n";
+                    content += "Sunset time" + weatherData.getSys().getSunset() + "\n";
 
                     textView.append(content);
                 }
-            }
 
             @Override
-            public void onFailure(Call<List<CurrentWeatherData>> call, Throwable t) {
-                textView.setText(t.getMessage());
+            public void onFailure(Call<CurrentWeatherData> call, Throwable t) {
+                textView.setText("ERROR\n " + t.getMessage());
             }
         });
         return root;
