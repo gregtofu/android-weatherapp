@@ -34,7 +34,7 @@
         android:layout_width="330dp"
         android:layout_height="274dp"
         android:paddingTop="20dp"
-        android:text="VLAD\n\n\nMade with java\n==API : OpenWeatherApp==\n== GitHub : <GITHUB LINK> =="
+        android:text="BITE"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
