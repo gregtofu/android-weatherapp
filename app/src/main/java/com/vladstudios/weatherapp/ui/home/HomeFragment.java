@@ -89,8 +89,9 @@ public class HomeFragment extends Fragment {
                 windForceText.setText("" + weatherData.getWind().getSpeed());
 
                 //change the weather icon
-                String weatherIconURL = "http://openweathermap.org/img/wn/" + weatherData.getMain().getIcon() + "@2x.png";
+                String weatherIconURL = "https://openweathermap.org/img/wn/" + weatherData.getWeather().get(0).getIcon() + "@2x.png";
                 Picasso.get().load(weatherIconURL).into(weatherIcon);
+                //Picasso.get().load("https://openweathermap.org/img/wn/04n@2x.png").into(weatherIcon);
             }
 
             @Override

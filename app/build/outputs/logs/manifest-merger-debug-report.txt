@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\e4279d8a8748c1ea66e0a1432734e5c6\jetified-navigation-ui-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\906744c4ddcbc384c5a8d2d69414f8fa\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
@@ -45,20 +45,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ENIGMA\.gradle\c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\8cf450d11667f9427b289f08c2115f5c\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\d31a9dbc3f8404c541e987748c42963b\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ENIGMA\.gradle\caches\transforms-2\files-2.1\699bc310780b1730bce8fe271ffeca8b\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml
 		INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml
-		ADDED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml
-		ADDED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:11-69
@@ -87,7 +87,7 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ENIGMA\.gradle
 	android:roundIcon
 		ADDED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:7:9-56
 	android:allowBackup
 		ADDED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
@@ -116,6 +116,10 @@ uses-permission#android.permission.INTERNET
 ADDED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:24:5-66
 	android:name
 		ADDED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:24:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml:25:22-78
 uses-sdk
 INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from A:\Cours\4A\Android\WeatherApp\app\src\main\AndroidManifest.xml

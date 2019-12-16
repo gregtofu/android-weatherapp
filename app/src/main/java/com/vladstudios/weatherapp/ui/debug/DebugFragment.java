@@ -62,6 +62,7 @@ public class DebugFragment extends Fragment {
                     content += "Humidity : " + weatherData.getMain().getHumidity() + "\n";
                     content += "Sunrise time" + weatherData.getSys().getSunrise() + "\n";
                     content += "Sunset time" + weatherData.getSys().getSunset() + "\n";
+                    content += "http://openweathermap.org/img/wn/" + weatherData.getWeather().get(0).getIcon() + "@2x.png\n";
 
                     textView.append(content);
                 }
