@@ -29,5 +29,6 @@ Ensuite, je mets l'image correspondant au temps actuel en cache avec Picasse, et
 ![Fragment principal](https://cdn.discordapp.com/attachments/486235276167872533/656201421116538943/Screenshot_20191216-192925_MtESIEA.jpg)
 
 Le fragment "APP INFO" de mon application est un fragment contenant des données statiques, déjà présentes sur mon téléphone.
+
 ![Fragment contenant les informations sur l'application](https://cdn.discordapp.com/attachments/486235276167872533/656201463575478284/Screenshot_20191216-192932_MtESIEA.jpg)
 
