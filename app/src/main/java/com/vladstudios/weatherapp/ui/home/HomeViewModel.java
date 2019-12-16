@@ -10,7 +10,7 @@ public class HomeViewModel extends ViewModel {
 
     public HomeViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("CURRENT WEATHER INFORMATION");
+        mText.setValue("WEATHER ON ESIEA");
     }
 
     public LiveData<String> getText() {

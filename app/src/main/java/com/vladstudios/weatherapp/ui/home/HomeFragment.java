@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CalendarView;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -13,10 +15,24 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.squareup.picasso.Picasso;
+import com.vladstudios.weatherapp.POJO.CurrentWeatherData;
 import com.vladstudios.weatherapp.R;
+import com.vladstudios.weatherapp.openWeatherMapApi;
+
+import java.sql.Time;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.TimeZone;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 public class HomeFragment extends Fragment {
-
     private HomeViewModel homeViewModel;
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -30,6 +46,7 @@ public class HomeFragment extends Fragment {
         final TextView sunriseText = root.findViewById(R.id.sunriseText);
         final TextView humidityText = root.findViewById(R.id.humidityText);
         final TextView windForceText = root.findViewById(R.id.windForceText);
+        final ImageView weatherIcon = root.findViewById(R.id.currentWeatherImage);
 
 
         homeViewModel.getText().observe(this, new Observer<String>() {
@@ -38,12 +55,60 @@ public class HomeFragment extends Fragment {
                 homeTitle.setText(s);
             }
         });
+
+
+        //Add a new Retrofit object that will allow us to call the openweathermap API
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("https://api.openweathermap.org/data/2.5/")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+
+        //Create an instance of CurrentWeatherData and fill it with the content from the API response
+        openWeatherMapApi data = retrofit.create(openWeatherMapApi.class);
+
+        //Then create a list containing the answer to API calls
+        Call<CurrentWeatherData> call = data.getWeatherData();
+        call.enqueue(new Callback<CurrentWeatherData>() {
+            @Override
+            public void onResponse(Call<CurrentWeatherData> call, Response<CurrentWeatherData> response) {
+                if(!response.isSuccessful()) {
+                    homeTitle.setText("Code : "+response.code());
+                    return;
+                }
+
+                //put the API response in a CurrentWeatherData object
+                CurrentWeatherData weatherData = response.body();
+
+                //then put the API response in the correct fields
+                homeTitle.setText(weatherData.getWeather().get(0).getDescription());
+                currentTemp.setText("" + weatherData.getMain().getTemp() + "°C");
+                humidityText.setText("" + weatherData.getMain().getHumidity() + "%");
+                sunriseText.setText("" + formatUnixDate(weatherData.getSys().getSunrise()));
+                sunsetText.setText("" + formatUnixDate(weatherData.getSys().getSunset()));
+                windForceText.setText("" + weatherData.getWind().getSpeed());
+
+                //change the weather icon
+                String weatherIconURL = "https://openweathermap.org/img/wn/" + weatherData.getWeather().get(0).getIcon() + "@2x.png";
+                Picasso.get().load(weatherIconURL).into(weatherIcon);
+                //Picasso.get().load("https://openweathermap.org/img/wn/04n@2x.png").into(weatherIcon);
+            }
+
+            @Override
+            public void onFailure(Call<CurrentWeatherData> call, Throwable t) {
+                homeTitle.setText("ERROR\n " + t.getMessage());
+            }
+        });
+
         return root;
     }
-    /*class weatherTask extends AsyncTask<String, Void, String> {
-        protected String doInBackground(String... args) {
-            String response = HttpRequest.excuteGet("https://api.openweathermap.org/data/2.5/weather?q=" + CITY + "&units=metric&appid=" + API);
-            return response;
-        }
-    }*/
+
+    //simple date formatting
+    private String formatUnixDate(long d){
+        Calendar cal = Calendar.getInstance();
+        TimeZone tz = cal.getTimeZone();
+        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
+        sdf.setTimeZone(tz);
+        String time = sdf.format(new Date(d * 1000));
+        return time;
+    }
 }

@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.vladstudios.weatherapp.ui.dashboard.DashboardFragment"
+        android:id="@+id/navigation_appinfo"
+        android:name="com.vladstudios.weatherapp.ui.appinfo.AppinfoFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_appinfo" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.vladstudios.weatherapp.ui.notifications.NotificationsFragment"
+        android:id="@+id/navigation_debug"
+        android:name="com.vladstudios.weatherapp.ui.debug.DebugFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_debug" />
 </navigation>
