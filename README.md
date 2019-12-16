@@ -32,3 +32,5 @@ Le fragment "APP INFO" de mon application est un fragment contenant des données
 
 ![Fragment contenant les informations sur l'application](https://cdn.discordapp.com/attachments/486235276167872533/656201463575478284/Screenshot_20191216-192932_MtESIEA.jpg)
 
+### Fonctionnalités à ajouter dans le futur
+Avec un peu plus de temps et une meilleure compréhension de l'architecture d'une application Android, et de la gestion des permissions, je pense qu'un troisième fragment contenant un sommaire de la météo des différents points de passage de mon trajet pourrait être optimal, à la place de mon fragment de débug actuel.
