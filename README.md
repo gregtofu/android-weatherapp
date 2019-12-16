@@ -16,7 +16,7 @@ Je m'en sers déjà pour savoir à quel point je vais être détrempé en arriva
 
 ### Screenshots de l'application:
 
-![Fragment principal](https://cdn.discordapp.com/attachments/486235276167872533/656201421116538943/Screenshot_20191216-192925_MtESIEA.jpg | width=100)
+![Fragment principal](https://cdn.discordapp.com/attachments/486235276167872533/656201421116538943/Screenshot_20191216-192925_MtESIEA.jpg)
 
-![Fragment contenant les informations sur l'application](https://cdn.discordapp.com/attachments/486235276167872533/656201463575478284/Screenshot_20191216-192932_MtESIEA.jpg | width=100)
+![Fragment contenant les informations sur l'application](https://cdn.discordapp.com/attachments/486235276167872533/656201463575478284/Screenshot_20191216-192932_MtESIEA.jpg)
 
